@@ -1,0 +1,42 @@
+/* ------------- Reset do CSS -------------*/
+*{
+    border: 0; /* borda do projeto -> Zerado*/
+    margin: 0;  /* Distância externa -> Zerado*/
+    padding: 0;  /* Espaçamento interno -> Zerado*/
+    box-sizing: border-box;  /* Respeitar largura e altura*/
+}
+
+/* ------------- Variáveis CSS -------------*/
+:root{
+
+    /* ------------- Variáveis de Cores-------------*/
+    --color-blue: #1090CB;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-blue-10: #1090CB1a;
+    --color-gray-2: #969696;
+    --color-gray: #5C5C5C;
+    --color-gray-3: #C4C4C4;
+
+    /* ------------- Fontes -------------*/
+    /* ---- Size (Variáveis de tamanho) ----*/
+    --font-size-h1: 35px;
+    --font-size-h2: 30px;
+    --font-size-h3: 25px;
+    --font-size-h4: 18px;
+    --font-size-body: 16px;
+    --font-size-button: 16px;
+    --font-size-caption: 14px;
+
+    /* ---- Weight  (Variáveis de espessura) ----*/
+    --font-weight-h1: 600;
+    --font-weight-h2: 600;
+    --font-weight-h3: 600;
+    --font-weight-h4: 500;
+    --font-weight-body: 400;
+    --font-weight-button: 700;
+    --font-weight-caption: 400;
+
+    /* ------------- Family  (Variáveis dea família)-------------*/
+    --font-primary: "Poppins", sans-serif;
+}
