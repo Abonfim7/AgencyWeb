@@ -1,1 +1,41 @@
 @import url("./global.css");
+
+header{
+    display: flex;  /* Para que o grupo fique ao lado do outro */
+    justify-content: space-between; /* Colocar nas extremidades */
+    align-items: center; /* Centraliza na vertical */
+    padding: 30px; /* Espaçamento interno */
+    border: 0.7px solid var(--color-gray-3); /*Borda inferior*/
+}
+
+.container-nav-header{
+    display: flex; /* Para que o grupo fique ao lado do outro */
+    align-items: center; /* Centraliza na vertical */
+    gap: 70px; /* Distância entre os elementos */
+}
+
+.container-nav-header ul{ /* Só vai estilizar as tags <UL> que estiverem nessa classe*/
+    display: flex;
+    gap: 40px; 
+    list-style: none;  /* Remove a bolinha da lista */
+}
+
+.navigation-header ul li a{
+    text-decoration: none; /* Decoração do texto */
+    color: var(--color-black);
+    font-family: var(--font-primary);
+}
+
+.navigation-header ul li .menu-active{ /* .menu-active é uma classe dentro da classe .navigation-header e falado o caminho "ul" e "li" */
+    color: var(--color-blue);
+}
+
+.btn-header{
+    font-family: var(--font-primary); /* Altera a fonte */
+    text-decoration: none; /* Tira a decoração do texto */
+    background-color: var(--color-blue); /* Cor de fundo */
+    color: var(--color-white); /* Cor do texto */
+    border-radius: 10px; /* Arredondamento das bordas */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-weight: var(--font-weight-button); /* Espessura da fonte */
+}
