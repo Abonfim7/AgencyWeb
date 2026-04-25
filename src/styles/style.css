@@ -208,9 +208,33 @@ main {
 
 .content-service p{
     font-family: var(--font-family-primary);
-    width: 445px;
+    width: 445px; /*Largura do elemento (Quebra de linha) */
     color: var(--color-gray);
     line-height: 27px;
 }
 
+/* ----------- SECTION BENEFIT ----------- */
+.section-benefit{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card-benefit{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+    padding: 60px 48px;
+    border-radius: 20px;
+}
+
+.card-benefit p{
+    width: 458px;
+}
+
+.card-benefit-secondary{
+    background-color: #1090CB;
+
+}
 /*  */
